@@ -1,0 +1,32 @@
+.heading-main{
+    margin-left: auto;
+    margin-right: auto;
+    color: #A4A400 ;
+    text-decoration: underline;
+    width: fit-content;
+}
+
+body{
+    background-color: #F0F0F0 ;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
